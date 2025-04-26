@@ -1,0 +1,2 @@
+gdacs-api
+pandas
