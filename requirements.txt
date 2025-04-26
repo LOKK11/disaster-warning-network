@@ -1,2 +1,3 @@
 gdacs-api
 pandas
+networkx
