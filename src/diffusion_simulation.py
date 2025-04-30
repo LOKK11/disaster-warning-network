@@ -80,8 +80,17 @@ for node in G.nodes():
         node_colors.append(color_map["inactive"])
         
 # Draw the graph with simple colors and uniform node size
-nx.draw_networkx_edges(G, pos=nx.spring_layout(G, seed=42), alpha=0.1, edge_color='gray', width=0.5)
-nx.draw_networkx_nodes(G, pos=nx.spring_layout(G, seed=42), node_color=node_colors, node_size=40, alpha=0.9) # Uniform size
+nx.draw_networkx_edges(G, pos=nx.spring_layout(G, seed=42), alpha=0.1, edge_color="gray", width=0.5)
+nx.draw_networkx_nodes(G, pos=nx.spring_layout(G, seed=42), node_color=node_colors, node_size=40, alpha=0.9)
+
+# Add legend
+legend_handles = [plt.Line2D([0], [0], marker="o", color="w", label=t, markersize=8, markerfacecolor=c)
+                   for t, c in color_map.items()]
+legend1 = plt.legend(handles=legend_handles, title="Node Types", loc="upper right", bbox_to_anchor=(1.0, 1.0))
+
+# Add title
+plt.title(f"Network Graph Highlighting Activated Nodes")
+plt.axis("off")
 plt.show()
 
 # Analyze results
@@ -132,5 +141,12 @@ plot_data = delay_stats_df.set_index("node_type")[["Average delay (s)", "Minimum
 plot_data.plot(kind="bar", ax=ax)
 ax.set_xlabel("Stakeholder type", color="red")
 ax.set_ylabel("Delay (s)", color="red")
-ax.tick_params(axis='x', rotation=0)
+ax.tick_params(axis="x", rotation=0)
+
+#Add title
+plt.title(f"Bar Plot Comparing Alert Delays")
 plt.show()
+
+# Save results
+output_path = Path(__file__).parent / "data" / "timestamps_delay.csv"
+timestamps_df.to_csv(output_path, index=False)
