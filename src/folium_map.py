@@ -9,7 +9,7 @@ nodes_path = Path(__file__).parent / "data" / "nodes.csv"
 nodes_df = pd.read_csv(nodes_path)
 
 # Load graph
-graph_path = Path(__file__).parent / "data" / "communication.graphml"
+graph_path = Path(__file__).parent / "data" / "communication_updated.graphml"
 G = nx.read_graphml(graph_path)
 
 # Ensure that latitude and longitude fields are correctly formatted

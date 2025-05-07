@@ -165,7 +165,7 @@ ax.set_ylabel("Delay (s)", color="red")
 ax.tick_params(axis="x", rotation=0)
 
 # Add title
-plt.title(f"Bar Plot Comparing Alert Delays")
+plt.title("Bar Plot Comparing Alert Delays")
 plt.show()
 
 # Save results
