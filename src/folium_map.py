@@ -22,7 +22,12 @@ centrality_values = np.array([c for c in betweenness_centrality.values()])
 
 # Normalize centrality values
 min_centrality, max_centrality = min(centrality_values), max(centrality_values)
-centralities_normalized = np.array([round((c - min_centrality) / (max_centrality - min_centrality), 2) for c in centrality_values])
+centralities_normalized = np.array(
+    [
+        round((c - min_centrality) / (max_centrality - min_centrality), 2)
+        for c in centrality_values
+    ]
+)
 
 # Create a folium map located at the average latitude and longitude of the nodes
 m = folium.Map(location=[nodes_df["latitude"].mean(), nodes_df["longitude"].mean()])
@@ -43,7 +48,7 @@ for i, row in nodes_df.iterrows():
     centrality = centralities_normalized[i]
     folium.CircleMarker(
         location=(row["latitude"], row["longitude"]),
-        radius=5+(centrality * 20),
+        radius=5 + (centrality * 20),
         color=customized_colors.get(node_type),
         fill=True,
         fill_color=customized_colors.get(node_type),

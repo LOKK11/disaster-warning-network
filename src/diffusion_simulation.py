@@ -98,7 +98,7 @@ legend1 = plt.legend(
 )
 
 # Add title
-plt.title(f"Network Graph Highlighting Activated Nodes")
+plt.title("Network Graph Highlighting Activated Nodes")
 plt.axis("off")
 plt.show()
 

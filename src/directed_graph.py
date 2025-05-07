@@ -29,7 +29,9 @@ for message in messages_group:
     avg_delay = round(float(message[1]["delay_in_seconds"].mean()), 2)
     avg_reliability = round(float(message[1]["reliability_score"].mean()), 2)
     message_count = int(message[1]["message_type"].count())
-    G.add_edge(src, tgt, delay=avg_delay, reliability=avg_reliability, messages=message_count)
+    G.add_edge(
+        src, tgt, delay=avg_delay, reliability=avg_reliability, messages=message_count
+    )
 
 # Graph direction and connection validation
 print(f"Graph is directed: {nx.is_directed(G)}")
