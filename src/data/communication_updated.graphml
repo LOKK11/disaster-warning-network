@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="reliability_normalized" attr.type="double" />
+  <key id="d10" for="edge" attr.name="delay_normalized" attr.type="double" />
+  <key id="d9" for="edge" attr.name="weight" attr.type="double" />
   <key id="d8" for="edge" attr.name="messages" attr.type="long" />
   <key id="d7" for="edge" attr.name="reliability" attr.type="double" />
   <key id="d6" for="edge" attr.name="delay" attr.type="double" />
@@ -1462,1296 +1465,2073 @@
       <data key="d6">98.0</data>
       <data key="d7">0.58</data>
       <data key="d8">5</data>
+      <data key="d9">168.97</data>
+      <data key="d10">0.52</data>
+      <data key="d11">0.58</data>
     </edge>
     <edge source="Node_001" target="Node_003">
       <data key="d6">88.33</data>
       <data key="d7">0.83</data>
       <data key="d8">3</data>
+      <data key="d9">106.42</data>
+      <data key="d10">0.46</data>
+      <data key="d11">0.83</data>
     </edge>
     <edge source="Node_001" target="Node_004">
       <data key="d6">139.33</data>
       <data key="d7">0.74</data>
       <data key="d8">3</data>
+      <data key="d9">188.28</data>
+      <data key="d10">0.76</data>
+      <data key="d11">0.74</data>
     </edge>
     <edge source="Node_001" target="Node_005">
       <data key="d6">113.6</data>
       <data key="d7">0.19</data>
       <data key="d8">5</data>
+      <data key="d9">597.89</data>
+      <data key="d10">0.61</data>
+      <data key="d11">0.19</data>
     </edge>
     <edge source="Node_001" target="Node_006">
       <data key="d6">102.4</data>
       <data key="d7">0.69</data>
       <data key="d8">5</data>
+      <data key="d9">148.41</data>
+      <data key="d10">0.54</data>
+      <data key="d11">0.69</data>
     </edge>
     <edge source="Node_001" target="Node_007">
       <data key="d6">100.67</data>
       <data key="d7">0.44</data>
       <data key="d8">3</data>
+      <data key="d9">228.79</data>
+      <data key="d10">0.53</data>
+      <data key="d11">0.44</data>
     </edge>
     <edge source="Node_001" target="Node_008">
       <data key="d6">29.0</data>
       <data key="d7">0.51</data>
       <data key="d8">2</data>
+      <data key="d9">56.86</data>
+      <data key="d10">0.11</data>
+      <data key="d11">0.51</data>
     </edge>
     <edge source="Node_001" target="Node_009">
       <data key="d6">64.6</data>
       <data key="d7">0.56</data>
       <data key="d8">5</data>
+      <data key="d9">115.36</data>
+      <data key="d10">0.32</data>
+      <data key="d11">0.56</data>
     </edge>
     <edge source="Node_001" target="Node_010">
       <data key="d6">112.5</data>
       <data key="d7">0.22</data>
       <data key="d8">4</data>
+      <data key="d9">511.36</data>
+      <data key="d10">0.6</data>
+      <data key="d11">0.22</data>
     </edge>
     <edge source="Node_001" target="Node_011">
       <data key="d6">73.8</data>
       <data key="d7">0.4</data>
       <data key="d8">5</data>
+      <data key="d9">184.5</data>
+      <data key="d10">0.38</data>
+      <data key="d11">0.4</data>
     </edge>
     <edge source="Node_002" target="Node_012">
       <data key="d6">108.0</data>
       <data key="d7">0.93</data>
       <data key="d8">1</data>
+      <data key="d9">116.13</data>
+      <data key="d10">0.58</data>
+      <data key="d11">0.93</data>
     </edge>
     <edge source="Node_002" target="Node_015">
       <data key="d6">40.0</data>
       <data key="d7">0.07</data>
       <data key="d8">1</data>
+      <data key="d9">571.42</data>
+      <data key="d10">0.18</data>
+      <data key="d11">0.07</data>
     </edge>
     <edge source="Node_002" target="Node_018">
       <data key="d6">155.0</data>
       <data key="d7">0.04</data>
       <data key="d8">1</data>
+      <data key="d9">3874.9</data>
+      <data key="d10">0.85</data>
+      <data key="d11">0.04</data>
     </edge>
     <edge source="Node_002" target="Node_023">
       <data key="d6">89.0</data>
       <data key="d7">0.63</data>
       <data key="d8">1</data>
+      <data key="d9">141.27</data>
+      <data key="d10">0.46</data>
+      <data key="d11">0.63</data>
     </edge>
     <edge source="Node_002" target="Node_029">
       <data key="d6">99.0</data>
       <data key="d7">0.03</data>
       <data key="d8">1</data>
+      <data key="d9">3299.89</data>
+      <data key="d10">0.52</data>
+      <data key="d11">0.03</data>
     </edge>
     <edge source="Node_003" target="Node_017">
       <data key="d6">75.0</data>
       <data key="d7">0.83</data>
       <data key="d8">1</data>
+      <data key="d9">90.36</data>
+      <data key="d10">0.38</data>
+      <data key="d11">0.83</data>
     </edge>
     <edge source="Node_003" target="Node_025">
       <data key="d6">153.0</data>
       <data key="d7">0.87</data>
       <data key="d8">1</data>
+      <data key="d9">175.86</data>
+      <data key="d10">0.84</data>
+      <data key="d11">0.87</data>
     </edge>
     <edge source="Node_004" target="Node_020">
       <data key="d6">104.0</data>
       <data key="d7">0.23</data>
       <data key="d8">1</data>
+      <data key="d9">452.17</data>
+      <data key="d10">0.55</data>
+      <data key="d11">0.23</data>
     </edge>
     <edge source="Node_004" target="Node_021">
       <data key="d6">72.0</data>
       <data key="d7">0.31</data>
       <data key="d8">1</data>
+      <data key="d9">232.26</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.31</data>
     </edge>
     <edge source="Node_004" target="Node_022">
       <data key="d6">117.0</data>
       <data key="d7">0.24</data>
       <data key="d8">1</data>
+      <data key="d9">487.5</data>
+      <data key="d10">0.63</data>
+      <data key="d11">0.24</data>
     </edge>
     <edge source="Node_004" target="Node_030">
       <data key="d6">108.0</data>
       <data key="d7">0.63</data>
       <data key="d8">1</data>
+      <data key="d9">171.43</data>
+      <data key="d10">0.58</data>
+      <data key="d11">0.63</data>
     </edge>
     <edge source="Node_005" target="Node_012">
       <data key="d6">71.0</data>
       <data key="d7">0.52</data>
       <data key="d8">2</data>
+      <data key="d9">136.54</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.52</data>
     </edge>
     <edge source="Node_005" target="Node_014">
       <data key="d6">80.0</data>
       <data key="d7">0.97</data>
       <data key="d8">1</data>
+      <data key="d9">82.47</data>
+      <data key="d10">0.41</data>
+      <data key="d11">0.97</data>
     </edge>
     <edge source="Node_005" target="Node_017">
       <data key="d6">97.0</data>
       <data key="d7">0.42</data>
       <data key="d8">1</data>
+      <data key="d9">230.95</data>
+      <data key="d10">0.51</data>
+      <data key="d11">0.42</data>
     </edge>
     <edge source="Node_005" target="Node_020">
       <data key="d6">30.0</data>
       <data key="d7">0.36</data>
       <data key="d8">1</data>
+      <data key="d9">83.33</data>
+      <data key="d10">0.12</data>
+      <data key="d11">0.36</data>
     </edge>
     <edge source="Node_005" target="Node_030">
       <data key="d6">144.0</data>
       <data key="d7">0.04</data>
       <data key="d8">1</data>
+      <data key="d9">3599.91</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.04</data>
     </edge>
     <edge source="Node_006" target="Node_014">
       <data key="d6">31.0</data>
       <data key="d7">0.75</data>
       <data key="d8">1</data>
+      <data key="d9">41.33</data>
+      <data key="d10">0.12</data>
+      <data key="d11">0.75</data>
     </edge>
     <edge source="Node_006" target="Node_021">
       <data key="d6">21.5</data>
       <data key="d7">0.79</data>
       <data key="d8">2</data>
+      <data key="d9">27.22</data>
+      <data key="d10">0.07</data>
+      <data key="d11">0.79</data>
     </edge>
     <edge source="Node_006" target="Node_024">
       <data key="d6">57.0</data>
       <data key="d7">0.92</data>
       <data key="d8">1</data>
+      <data key="d9">61.96</data>
+      <data key="d10">0.28</data>
+      <data key="d11">0.92</data>
     </edge>
     <edge source="Node_007" target="Node_017">
       <data key="d6">28.0</data>
       <data key="d7">0.05</data>
       <data key="d8">1</data>
+      <data key="d9">559.99</data>
+      <data key="d10">0.11</data>
+      <data key="d11">0.05</data>
     </edge>
     <edge source="Node_007" target="Node_018">
       <data key="d6">39.0</data>
       <data key="d7">0.83</data>
       <data key="d8">1</data>
+      <data key="d9">46.99</data>
+      <data key="d10">0.17</data>
+      <data key="d11">0.83</data>
     </edge>
     <edge source="Node_007" target="Node_021">
       <data key="d6">145.0</data>
       <data key="d7">0.82</data>
       <data key="d8">1</data>
+      <data key="d9">176.83</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.82</data>
     </edge>
     <edge source="Node_007" target="Node_022">
       <data key="d6">59.0</data>
       <data key="d7">0.78</data>
       <data key="d8">1</data>
+      <data key="d9">75.64</data>
+      <data key="d10">0.29</data>
+      <data key="d11">0.78</data>
     </edge>
     <edge source="Node_007" target="Node_024">
       <data key="d6">96.0</data>
       <data key="d7">0.63</data>
       <data key="d8">1</data>
+      <data key="d9">152.38</data>
+      <data key="d10">0.51</data>
+      <data key="d11">0.63</data>
     </edge>
     <edge source="Node_007" target="Node_027">
       <data key="d6">158.0</data>
       <data key="d7">0.75</data>
       <data key="d8">1</data>
+      <data key="d9">210.67</data>
+      <data key="d10">0.87</data>
+      <data key="d11">0.75</data>
     </edge>
     <edge source="Node_007" target="Node_031">
       <data key="d6">84.0</data>
       <data key="d7">0.22</data>
       <data key="d8">1</data>
+      <data key="d9">381.82</data>
+      <data key="d10">0.44</data>
+      <data key="d11">0.22</data>
     </edge>
     <edge source="Node_008" target="Node_016">
       <data key="d6">165.0</data>
       <data key="d7">0.22</data>
       <data key="d8">1</data>
+      <data key="d9">750.0</data>
+      <data key="d10">0.91</data>
+      <data key="d11">0.22</data>
     </edge>
     <edge source="Node_008" target="Node_025">
       <data key="d6">140.5</data>
       <data key="d7">0.32</data>
       <data key="d8">2</data>
+      <data key="d9">439.06</data>
+      <data key="d10">0.77</data>
+      <data key="d11">0.32</data>
     </edge>
     <edge source="Node_009" target="Node_019">
       <data key="d6">54.0</data>
       <data key="d7">0.78</data>
       <data key="d8">2</data>
+      <data key="d9">69.23</data>
+      <data key="d10">0.26</data>
+      <data key="d11">0.78</data>
     </edge>
     <edge source="Node_009" target="Node_023">
       <data key="d6">129.0</data>
       <data key="d7">0.41</data>
       <data key="d8">1</data>
+      <data key="d9">314.63</data>
+      <data key="d10">0.7</data>
+      <data key="d11">0.41</data>
     </edge>
     <edge source="Node_009" target="Node_024">
       <data key="d6">167.0</data>
       <data key="d7">0.68</data>
       <data key="d8">1</data>
+      <data key="d9">245.59</data>
+      <data key="d10">0.92</data>
+      <data key="d11">0.68</data>
     </edge>
     <edge source="Node_009" target="Node_026">
       <data key="d6">104.67</data>
       <data key="d7">0.43</data>
       <data key="d8">3</data>
+      <data key="d9">243.42</data>
+      <data key="d10">0.56</data>
+      <data key="d11">0.43</data>
     </edge>
     <edge source="Node_010" target="Node_012">
       <data key="d6">41.0</data>
       <data key="d7">1.0</data>
       <data key="d8">1</data>
+      <data key="d9">41.0</data>
+      <data key="d10">0.18</data>
+      <data key="d11">1.0</data>
     </edge>
     <edge source="Node_010" target="Node_013">
       <data key="d6">50.0</data>
       <data key="d7">0.17</data>
       <data key="d8">1</data>
+      <data key="d9">294.12</data>
+      <data key="d10">0.24</data>
+      <data key="d11">0.17</data>
     </edge>
     <edge source="Node_010" target="Node_015">
       <data key="d6">152.0</data>
       <data key="d7">0.66</data>
       <data key="d8">1</data>
+      <data key="d9">230.3</data>
+      <data key="d10">0.84</data>
+      <data key="d11">0.66</data>
     </edge>
     <edge source="Node_010" target="Node_017">
       <data key="d6">35.0</data>
       <data key="d7">0.74</data>
       <data key="d8">1</data>
+      <data key="d9">47.3</data>
+      <data key="d10">0.15</data>
+      <data key="d11">0.74</data>
     </edge>
     <edge source="Node_010" target="Node_025">
       <data key="d6">75.5</data>
       <data key="d7">0.24</data>
       <data key="d8">2</data>
+      <data key="d9">314.58</data>
+      <data key="d10">0.39</data>
+      <data key="d11">0.24</data>
     </edge>
     <edge source="Node_010" target="Node_028">
       <data key="d6">56.0</data>
       <data key="d7">0.31</data>
       <data key="d8">1</data>
+      <data key="d9">180.64</data>
+      <data key="d10">0.27</data>
+      <data key="d11">0.31</data>
     </edge>
     <edge source="Node_011" target="Node_015">
       <data key="d6">156.0</data>
       <data key="d7">0.06</data>
       <data key="d8">1</data>
+      <data key="d9">2599.96</data>
+      <data key="d10">0.86</data>
+      <data key="d11">0.06</data>
     </edge>
     <edge source="Node_011" target="Node_018">
       <data key="d6">71.0</data>
       <data key="d7">0.29</data>
       <data key="d8">1</data>
+      <data key="d9">244.83</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.29</data>
     </edge>
     <edge source="Node_011" target="Node_027">
       <data key="d6">66.0</data>
       <data key="d7">0.72</data>
       <data key="d8">1</data>
+      <data key="d9">91.67</data>
+      <data key="d10">0.33</data>
+      <data key="d11">0.72</data>
     </edge>
     <edge source="Node_011" target="Node_031">
       <data key="d6">80.5</data>
       <data key="d7">0.56</data>
       <data key="d8">2</data>
+      <data key="d9">143.75</data>
+      <data key="d10">0.41</data>
+      <data key="d11">0.56</data>
     </edge>
     <edge source="Node_012" target="Node_033">
       <data key="d6">64.0</data>
       <data key="d7">0.51</data>
       <data key="d8">1</data>
+      <data key="d9">125.49</data>
+      <data key="d10">0.32</data>
+      <data key="d11">0.51</data>
     </edge>
     <edge source="Node_012" target="Node_054">
       <data key="d6">86.0</data>
       <data key="d7">0.61</data>
       <data key="d8">1</data>
+      <data key="d9">140.98</data>
+      <data key="d10">0.45</data>
+      <data key="d11">0.61</data>
     </edge>
     <edge source="Node_012" target="Node_067">
       <data key="d6">122.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">187.69</data>
+      <data key="d10">0.66</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_013" target="Node_045">
       <data key="d6">43.0</data>
       <data key="d7">0.27</data>
       <data key="d8">1</data>
+      <data key="d9">159.26</data>
+      <data key="d10">0.19</data>
+      <data key="d11">0.27</data>
     </edge>
     <edge source="Node_013" target="Node_071">
       <data key="d6">124.0</data>
       <data key="d7">0.56</data>
       <data key="d8">1</data>
+      <data key="d9">221.43</data>
+      <data key="d10">0.67</data>
+      <data key="d11">0.56</data>
     </edge>
     <edge source="Node_014" target="Node_062">
       <data key="d6">38.0</data>
       <data key="d7">0.22</data>
       <data key="d8">1</data>
+      <data key="d9">172.73</data>
+      <data key="d10">0.16</data>
+      <data key="d11">0.22</data>
     </edge>
     <edge source="Node_014" target="Node_078">
       <data key="d6">117.0</data>
       <data key="d7">0.12</data>
       <data key="d8">1</data>
+      <data key="d9">974.99</data>
+      <data key="d10">0.63</data>
+      <data key="d11">0.12</data>
     </edge>
     <edge source="Node_014" target="Node_081">
       <data key="d6">78.0</data>
       <data key="d7">0.47</data>
       <data key="d8">1</data>
+      <data key="d9">165.96</data>
+      <data key="d10">0.4</data>
+      <data key="d11">0.47</data>
     </edge>
     <edge source="Node_015" target="Node_033">
       <data key="d6">174.0</data>
       <data key="d7">0.95</data>
       <data key="d8">1</data>
+      <data key="d9">183.16</data>
+      <data key="d10">0.96</data>
+      <data key="d11">0.95</data>
     </edge>
     <edge source="Node_015" target="Node_056">
       <data key="d6">52.0</data>
       <data key="d7">0.54</data>
       <data key="d8">1</data>
+      <data key="d9">96.3</data>
+      <data key="d10">0.25</data>
+      <data key="d11">0.54</data>
     </edge>
     <edge source="Node_016" target="Node_042">
       <data key="d6">167.0</data>
       <data key="d7">0.74</data>
       <data key="d8">1</data>
+      <data key="d9">225.68</data>
+      <data key="d10">0.92</data>
+      <data key="d11">0.74</data>
     </edge>
     <edge source="Node_016" target="Node_046">
       <data key="d6">30.0</data>
       <data key="d7">0.67</data>
       <data key="d8">1</data>
+      <data key="d9">44.78</data>
+      <data key="d10">0.12</data>
+      <data key="d11">0.67</data>
     </edge>
     <edge source="Node_016" target="Node_049">
       <data key="d6">119.0</data>
       <data key="d7">0.07</data>
       <data key="d8">1</data>
+      <data key="d9">1699.98</data>
+      <data key="d10">0.64</data>
+      <data key="d11">0.07</data>
     </edge>
     <edge source="Node_016" target="Node_059">
       <data key="d6">57.0</data>
       <data key="d7">0.69</data>
       <data key="d8">1</data>
+      <data key="d9">82.61</data>
+      <data key="d10">0.28</data>
+      <data key="d11">0.69</data>
     </edge>
     <edge source="Node_017" target="Node_034">
       <data key="d6">127.0</data>
       <data key="d7">0.15</data>
       <data key="d8">1</data>
+      <data key="d9">846.66</data>
+      <data key="d10">0.69</data>
+      <data key="d11">0.15</data>
     </edge>
     <edge source="Node_017" target="Node_052">
       <data key="d6">94.0</data>
       <data key="d7">0.66</data>
       <data key="d8">1</data>
+      <data key="d9">142.42</data>
+      <data key="d10">0.49</data>
+      <data key="d11">0.66</data>
     </edge>
     <edge source="Node_017" target="Node_062">
       <data key="d6">42.0</data>
       <data key="d7">0.36</data>
       <data key="d8">1</data>
+      <data key="d9">116.67</data>
+      <data key="d10">0.19</data>
+      <data key="d11">0.36</data>
     </edge>
     <edge source="Node_017" target="Node_080">
       <data key="d6">154.0</data>
       <data key="d7">0.04</data>
       <data key="d8">1</data>
+      <data key="d9">3849.9</data>
+      <data key="d10">0.85</data>
+      <data key="d11">0.04</data>
     </edge>
     <edge source="Node_018" target="Node_035">
       <data key="d6">168.0</data>
       <data key="d7">0.12</data>
       <data key="d8">1</data>
+      <data key="d9">1399.99</data>
+      <data key="d10">0.93</data>
+      <data key="d11">0.12</data>
     </edge>
     <edge source="Node_018" target="Node_038">
       <data key="d6">21.0</data>
       <data key="d7">0.35</data>
       <data key="d8">1</data>
+      <data key="d9">60.0</data>
+      <data key="d10">0.06</data>
+      <data key="d11">0.35</data>
     </edge>
     <edge source="Node_018" target="Node_040">
       <data key="d6">92.0</data>
       <data key="d7">0.05</data>
       <data key="d8">1</data>
+      <data key="d9">1839.96</data>
+      <data key="d10">0.48</data>
+      <data key="d11">0.05</data>
     </edge>
     <edge source="Node_018" target="Node_051">
       <data key="d6">121.0</data>
       <data key="d7">0.6</data>
       <data key="d8">1</data>
+      <data key="d9">201.67</data>
+      <data key="d10">0.65</data>
+      <data key="d11">0.6</data>
     </edge>
     <edge source="Node_018" target="Node_053">
       <data key="d6">34.0</data>
       <data key="d7">0.84</data>
       <data key="d8">1</data>
+      <data key="d9">40.48</data>
+      <data key="d10">0.14</data>
+      <data key="d11">0.84</data>
     </edge>
     <edge source="Node_019" target="Node_033">
       <data key="d6">180.0</data>
       <data key="d7">0.78</data>
       <data key="d8">1</data>
+      <data key="d9">230.77</data>
+      <data key="d10">1.0</data>
+      <data key="d11">0.78</data>
     </edge>
     <edge source="Node_019" target="Node_038">
       <data key="d6">63.0</data>
       <data key="d7">0.88</data>
       <data key="d8">1</data>
+      <data key="d9">71.59</data>
+      <data key="d10">0.31</data>
+      <data key="d11">0.88</data>
     </edge>
     <edge source="Node_019" target="Node_044">
       <data key="d6">81.0</data>
       <data key="d7">0.52</data>
       <data key="d8">2</data>
+      <data key="d9">155.77</data>
+      <data key="d10">0.42</data>
+      <data key="d11">0.52</data>
     </edge>
     <edge source="Node_019" target="Node_058">
       <data key="d6">176.0</data>
       <data key="d7">0.93</data>
       <data key="d8">1</data>
+      <data key="d9">189.25</data>
+      <data key="d10">0.98</data>
+      <data key="d11">0.93</data>
     </edge>
     <edge source="Node_019" target="Node_064">
       <data key="d6">137.0</data>
       <data key="d7">0.51</data>
       <data key="d8">1</data>
+      <data key="d9">268.63</data>
+      <data key="d10">0.75</data>
+      <data key="d11">0.51</data>
     </edge>
     <edge source="Node_019" target="Node_068">
       <data key="d6">166.0</data>
       <data key="d7">0.16</data>
       <data key="d8">1</data>
+      <data key="d9">1037.49</data>
+      <data key="d10">0.92</data>
+      <data key="d11">0.16</data>
     </edge>
     <edge source="Node_020" target="Node_035">
       <data key="d6">122.0</data>
       <data key="d7">0.81</data>
       <data key="d8">1</data>
+      <data key="d9">150.62</data>
+      <data key="d10">0.66</data>
+      <data key="d11">0.81</data>
     </edge>
     <edge source="Node_020" target="Node_073">
       <data key="d6">77.0</data>
       <data key="d7">0.48</data>
       <data key="d8">1</data>
+      <data key="d9">160.42</data>
+      <data key="d10">0.39</data>
+      <data key="d11">0.48</data>
     </edge>
     <edge source="Node_020" target="Node_075">
       <data key="d6">154.0</data>
       <data key="d7">0.07</data>
       <data key="d8">1</data>
+      <data key="d9">2199.97</data>
+      <data key="d10">0.85</data>
+      <data key="d11">0.07</data>
     </edge>
     <edge source="Node_020" target="Node_081">
       <data key="d6">100.0</data>
       <data key="d7">0.31</data>
       <data key="d8">1</data>
+      <data key="d9">322.58</data>
+      <data key="d10">0.53</data>
+      <data key="d11">0.31</data>
     </edge>
     <edge source="Node_021" target="Node_049">
       <data key="d6">66.0</data>
       <data key="d7">0.43</data>
       <data key="d8">1</data>
+      <data key="d9">153.49</data>
+      <data key="d10">0.33</data>
+      <data key="d11">0.43</data>
     </edge>
     <edge source="Node_021" target="Node_050">
       <data key="d6">98.0</data>
       <data key="d7">0.99</data>
       <data key="d8">1</data>
+      <data key="d9">98.99</data>
+      <data key="d10">0.52</data>
+      <data key="d11">0.99</data>
     </edge>
     <edge source="Node_021" target="Node_061">
       <data key="d6">42.0</data>
       <data key="d7">0.79</data>
       <data key="d8">1</data>
+      <data key="d9">53.16</data>
+      <data key="d10">0.19</data>
+      <data key="d11">0.79</data>
     </edge>
     <edge source="Node_021" target="Node_077">
       <data key="d6">100.0</data>
       <data key="d7">0.57</data>
       <data key="d8">1</data>
+      <data key="d9">175.44</data>
+      <data key="d10">0.53</data>
+      <data key="d11">0.57</data>
     </edge>
     <edge source="Node_022" target="Node_034">
       <data key="d6">153.0</data>
       <data key="d7">0.67</data>
       <data key="d8">1</data>
+      <data key="d9">228.36</data>
+      <data key="d10">0.84</data>
+      <data key="d11">0.67</data>
     </edge>
     <edge source="Node_022" target="Node_054">
       <data key="d6">125.0</data>
       <data key="d7">0.81</data>
       <data key="d8">1</data>
+      <data key="d9">154.32</data>
+      <data key="d10">0.68</data>
+      <data key="d11">0.81</data>
     </edge>
     <edge source="Node_022" target="Node_067">
       <data key="d6">163.0</data>
       <data key="d7">0.09</data>
       <data key="d8">1</data>
+      <data key="d9">1811.09</data>
+      <data key="d10">0.9</data>
+      <data key="d11">0.09</data>
     </edge>
     <edge source="Node_022" target="Node_074">
       <data key="d6">86.0</data>
       <data key="d7">0.14</data>
       <data key="d8">1</data>
+      <data key="d9">614.28</data>
+      <data key="d10">0.45</data>
+      <data key="d11">0.14</data>
     </edge>
     <edge source="Node_023" target="Node_043">
       <data key="d6">123.0</data>
       <data key="d7">0.28</data>
       <data key="d8">1</data>
+      <data key="d9">439.28</data>
+      <data key="d10">0.66</data>
+      <data key="d11">0.28</data>
     </edge>
     <edge source="Node_023" target="Node_051">
       <data key="d6">121.0</data>
       <data key="d7">0.09</data>
       <data key="d8">1</data>
+      <data key="d9">1344.43</data>
+      <data key="d10">0.65</data>
+      <data key="d11">0.09</data>
     </edge>
     <edge source="Node_023" target="Node_060">
       <data key="d6">97.0</data>
       <data key="d7">0.12</data>
       <data key="d8">1</data>
+      <data key="d9">808.33</data>
+      <data key="d10">0.51</data>
+      <data key="d11">0.12</data>
     </edge>
     <edge source="Node_023" target="Node_061">
       <data key="d6">99.0</data>
       <data key="d7">0.77</data>
       <data key="d8">1</data>
+      <data key="d9">128.57</data>
+      <data key="d10">0.52</data>
+      <data key="d11">0.77</data>
     </edge>
     <edge source="Node_024" target="Node_037">
       <data key="d6">103.0</data>
       <data key="d7">0.58</data>
       <data key="d8">1</data>
+      <data key="d9">177.59</data>
+      <data key="d10">0.55</data>
+      <data key="d11">0.58</data>
     </edge>
     <edge source="Node_024" target="Node_039">
       <data key="d6">58.0</data>
       <data key="d7">0.24</data>
       <data key="d8">1</data>
+      <data key="d9">241.67</data>
+      <data key="d10">0.28</data>
+      <data key="d11">0.24</data>
     </edge>
     <edge source="Node_024" target="Node_064">
       <data key="d6">141.0</data>
       <data key="d7">0.44</data>
       <data key="d8">1</data>
+      <data key="d9">320.45</data>
+      <data key="d10">0.77</data>
+      <data key="d11">0.44</data>
     </edge>
     <edge source="Node_024" target="Node_076">
       <data key="d6">104.0</data>
       <data key="d7">0.0</data>
       <data key="d8">1</data>
+      <data key="d9">104000000.0</data>
+      <data key="d10">0.55</data>
+      <data key="d11">0.0</data>
     </edge>
     <edge source="Node_024" target="Node_077">
       <data key="d6">144.0</data>
       <data key="d7">0.89</data>
       <data key="d8">1</data>
+      <data key="d9">161.8</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.89</data>
     </edge>
     <edge source="Node_025" target="Node_034">
       <data key="d6">77.0</data>
       <data key="d7">0.54</data>
       <data key="d8">1</data>
+      <data key="d9">142.59</data>
+      <data key="d10">0.39</data>
+      <data key="d11">0.54</data>
     </edge>
     <edge source="Node_025" target="Node_053">
       <data key="d6">105.0</data>
       <data key="d7">0.74</data>
       <data key="d8">1</data>
+      <data key="d9">141.89</data>
+      <data key="d10">0.56</data>
+      <data key="d11">0.74</data>
     </edge>
     <edge source="Node_025" target="Node_055">
       <data key="d6">145.0</data>
       <data key="d7">0.02</data>
       <data key="d8">1</data>
+      <data key="d9">7249.64</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.02</data>
     </edge>
     <edge source="Node_025" target="Node_066">
       <data key="d6">47.0</data>
       <data key="d7">0.46</data>
       <data key="d8">1</data>
+      <data key="d9">102.17</data>
+      <data key="d10">0.22</data>
+      <data key="d11">0.46</data>
     </edge>
     <edge source="Node_025" target="Node_069">
       <data key="d6">49.0</data>
       <data key="d7">0.99</data>
       <data key="d8">1</data>
+      <data key="d9">49.49</data>
+      <data key="d10">0.23</data>
+      <data key="d11">0.99</data>
     </edge>
     <edge source="Node_025" target="Node_079">
       <data key="d6">95.0</data>
       <data key="d7">0.63</data>
       <data key="d8">1</data>
+      <data key="d9">150.79</data>
+      <data key="d10">0.5</data>
+      <data key="d11">0.63</data>
     </edge>
     <edge source="Node_026" target="Node_032">
       <data key="d6">113.0</data>
       <data key="d7">0.97</data>
       <data key="d8">1</data>
+      <data key="d9">116.49</data>
+      <data key="d10">0.61</data>
+      <data key="d11">0.97</data>
     </edge>
     <edge source="Node_026" target="Node_057">
       <data key="d6">43.0</data>
       <data key="d7">0.63</data>
       <data key="d8">1</data>
+      <data key="d9">68.25</data>
+      <data key="d10">0.19</data>
+      <data key="d11">0.63</data>
     </edge>
     <edge source="Node_026" target="Node_072">
       <data key="d6">34.0</data>
       <data key="d7">0.64</data>
       <data key="d8">1</data>
+      <data key="d9">53.12</data>
+      <data key="d10">0.14</data>
+      <data key="d11">0.64</data>
     </edge>
     <edge source="Node_027" target="Node_036">
       <data key="d6">135.0</data>
       <data key="d7">0.27</data>
       <data key="d8">1</data>
+      <data key="d9">500.0</data>
+      <data key="d10">0.74</data>
+      <data key="d11">0.27</data>
     </edge>
     <edge source="Node_027" target="Node_063">
       <data key="d6">162.0</data>
       <data key="d7">0.97</data>
       <data key="d8">1</data>
+      <data key="d9">167.01</data>
+      <data key="d10">0.89</data>
+      <data key="d11">0.97</data>
     </edge>
     <edge source="Node_027" target="Node_080">
       <data key="d6">107.0</data>
       <data key="d7">0.61</data>
       <data key="d8">2</data>
+      <data key="d9">175.41</data>
+      <data key="d10">0.57</data>
+      <data key="d11">0.61</data>
     </edge>
     <edge source="Node_028" target="Node_056">
       <data key="d6">86.0</data>
       <data key="d7">0.13</data>
       <data key="d8">1</data>
+      <data key="d9">661.53</data>
+      <data key="d10">0.45</data>
+      <data key="d11">0.13</data>
     </edge>
     <edge source="Node_028" target="Node_065">
       <data key="d6">10.0</data>
       <data key="d7">0.97</data>
       <data key="d8">1</data>
+      <data key="d9">10.31</data>
+      <data key="d10">0.0</data>
+      <data key="d11">0.97</data>
     </edge>
     <edge source="Node_028" target="Node_067">
       <data key="d6">178.0</data>
       <data key="d7">0.75</data>
       <data key="d8">1</data>
+      <data key="d9">237.33</data>
+      <data key="d10">0.99</data>
+      <data key="d11">0.75</data>
     </edge>
     <edge source="Node_028" target="Node_069">
       <data key="d6">37.0</data>
       <data key="d7">0.06</data>
       <data key="d8">1</data>
+      <data key="d9">616.66</data>
+      <data key="d10">0.16</data>
+      <data key="d11">0.06</data>
     </edge>
     <edge source="Node_028" target="Node_072">
       <data key="d6">70.0</data>
       <data key="d7">0.24</data>
       <data key="d8">1</data>
+      <data key="d9">291.67</data>
+      <data key="d10">0.35</data>
+      <data key="d11">0.24</data>
     </edge>
     <edge source="Node_029" target="Node_048">
       <data key="d6">167.0</data>
       <data key="d7">0.91</data>
       <data key="d8">1</data>
+      <data key="d9">183.52</data>
+      <data key="d10">0.92</data>
+      <data key="d11">0.91</data>
     </edge>
     <edge source="Node_029" target="Node_066">
       <data key="d6">70.0</data>
       <data key="d7">0.2</data>
       <data key="d8">1</data>
+      <data key="d9">350.0</data>
+      <data key="d10">0.35</data>
+      <data key="d11">0.2</data>
     </edge>
     <edge source="Node_030" target="Node_041">
       <data key="d6">54.0</data>
       <data key="d7">0.49</data>
       <data key="d8">1</data>
+      <data key="d9">110.2</data>
+      <data key="d10">0.26</data>
+      <data key="d11">0.49</data>
     </edge>
     <edge source="Node_030" target="Node_042">
       <data key="d6">23.0</data>
       <data key="d7">0.49</data>
       <data key="d8">1</data>
+      <data key="d9">46.94</data>
+      <data key="d10">0.08</data>
+      <data key="d11">0.49</data>
     </edge>
     <edge source="Node_030" target="Node_047">
       <data key="d6">151.0</data>
       <data key="d7">0.16</data>
       <data key="d8">1</data>
+      <data key="d9">943.74</data>
+      <data key="d10">0.83</data>
+      <data key="d11">0.16</data>
     </edge>
     <edge source="Node_030" target="Node_070">
       <data key="d6">66.0</data>
       <data key="d7">0.5</data>
       <data key="d8">1</data>
+      <data key="d9">132.0</data>
+      <data key="d10">0.33</data>
+      <data key="d11">0.5</data>
     </edge>
     <edge source="Node_030" target="Node_077">
       <data key="d6">97.0</data>
       <data key="d7">0.73</data>
       <data key="d8">1</data>
+      <data key="d9">132.88</data>
+      <data key="d10">0.51</data>
+      <data key="d11">0.73</data>
     </edge>
     <edge source="Node_031" target="Node_032">
       <data key="d6">178.0</data>
       <data key="d7">0.82</data>
       <data key="d8">1</data>
+      <data key="d9">217.07</data>
+      <data key="d10">0.99</data>
+      <data key="d11">0.82</data>
     </edge>
     <edge source="Node_031" target="Node_033">
       <data key="d6">119.0</data>
       <data key="d7">0.59</data>
       <data key="d8">1</data>
+      <data key="d9">201.69</data>
+      <data key="d10">0.64</data>
+      <data key="d11">0.59</data>
     </edge>
     <edge source="Node_031" target="Node_055">
       <data key="d6">54.0</data>
       <data key="d7">0.88</data>
       <data key="d8">1</data>
+      <data key="d9">61.36</data>
+      <data key="d10">0.26</data>
+      <data key="d11">0.88</data>
     </edge>
     <edge source="Node_031" target="Node_073">
       <data key="d6">124.0</data>
       <data key="d7">0.23</data>
       <data key="d8">1</data>
+      <data key="d9">539.13</data>
+      <data key="d10">0.67</data>
+      <data key="d11">0.23</data>
     </edge>
     <edge source="Node_032" target="Node_095">
       <data key="d6">31.0</data>
       <data key="d7">0.44</data>
       <data key="d8">1</data>
+      <data key="d9">70.45</data>
+      <data key="d10">0.12</data>
+      <data key="d11">0.44</data>
     </edge>
     <edge source="Node_033" target="Node_082">
       <data key="d6">109.0</data>
       <data key="d7">0.01</data>
       <data key="d8">1</data>
+      <data key="d9">10898.91</data>
+      <data key="d10">0.58</data>
+      <data key="d11">0.01</data>
     </edge>
     <edge source="Node_033" target="Node_104">
       <data key="d6">163.0</data>
       <data key="d7">0.69</data>
       <data key="d8">1</data>
+      <data key="d9">236.23</data>
+      <data key="d10">0.9</data>
+      <data key="d11">0.69</data>
     </edge>
     <edge source="Node_033" target="Node_134">
       <data key="d6">75.0</data>
       <data key="d7">0.01</data>
       <data key="d8">1</data>
+      <data key="d9">7499.25</data>
+      <data key="d10">0.38</data>
+      <data key="d11">0.01</data>
     </edge>
     <edge source="Node_034" target="Node_115">
       <data key="d6">144.0</data>
       <data key="d7">0.23</data>
       <data key="d8">1</data>
+      <data key="d9">626.08</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.23</data>
     </edge>
     <edge source="Node_034" target="Node_118">
       <data key="d6">166.0</data>
       <data key="d7">0.61</data>
       <data key="d8">1</data>
+      <data key="d9">272.13</data>
+      <data key="d10">0.92</data>
+      <data key="d11">0.61</data>
     </edge>
     <edge source="Node_034" target="Node_159">
       <data key="d6">164.0</data>
       <data key="d7">0.38</data>
       <data key="d8">1</data>
+      <data key="d9">431.58</data>
+      <data key="d10">0.91</data>
+      <data key="d11">0.38</data>
     </edge>
     <edge source="Node_034" target="Node_165">
       <data key="d6">169.0</data>
       <data key="d7">0.1</data>
       <data key="d8">1</data>
+      <data key="d9">1689.98</data>
+      <data key="d10">0.94</data>
+      <data key="d11">0.1</data>
     </edge>
     <edge source="Node_035" target="Node_154">
       <data key="d6">169.0</data>
       <data key="d7">0.55</data>
       <data key="d8">1</data>
+      <data key="d9">307.27</data>
+      <data key="d10">0.94</data>
+      <data key="d11">0.55</data>
     </edge>
     <edge source="Node_036" target="Node_109">
       <data key="d6">98.0</data>
       <data key="d7">0.6</data>
       <data key="d8">1</data>
+      <data key="d9">163.33</data>
+      <data key="d10">0.52</data>
+      <data key="d11">0.6</data>
     </edge>
     <edge source="Node_036" target="Node_147">
       <data key="d6">121.0</data>
       <data key="d7">0.7</data>
       <data key="d8">1</data>
+      <data key="d9">172.86</data>
+      <data key="d10">0.65</data>
+      <data key="d11">0.7</data>
     </edge>
     <edge source="Node_036" target="Node_149">
       <data key="d6">58.0</data>
       <data key="d7">0.06</data>
       <data key="d8">1</data>
+      <data key="d9">966.65</data>
+      <data key="d10">0.28</data>
+      <data key="d11">0.06</data>
     </edge>
     <edge source="Node_037" target="Node_120">
       <data key="d6">104.0</data>
       <data key="d7">0.73</data>
       <data key="d8">1</data>
+      <data key="d9">142.47</data>
+      <data key="d10">0.55</data>
+      <data key="d11">0.73</data>
     </edge>
     <edge source="Node_037" target="Node_172">
       <data key="d6">25.0</data>
       <data key="d7">0.71</data>
       <data key="d8">1</data>
+      <data key="d9">35.21</data>
+      <data key="d10">0.09</data>
+      <data key="d11">0.71</data>
     </edge>
     <edge source="Node_038" target="Node_092">
       <data key="d6">150.0</data>
       <data key="d7">0.03</data>
       <data key="d8">1</data>
+      <data key="d9">4999.83</data>
+      <data key="d10">0.82</data>
+      <data key="d11">0.03</data>
     </edge>
     <edge source="Node_039" target="Node_118">
       <data key="d6">25.0</data>
       <data key="d7">0.55</data>
       <data key="d8">1</data>
+      <data key="d9">45.45</data>
+      <data key="d10">0.09</data>
+      <data key="d11">0.55</data>
     </edge>
     <edge source="Node_039" target="Node_168">
       <data key="d6">136.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">209.23</data>
+      <data key="d10">0.74</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_040" target="Node_110">
       <data key="d6">135.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">207.69</data>
+      <data key="d10">0.74</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_040" target="Node_136">
       <data key="d6">128.0</data>
       <data key="d7">0.08</data>
       <data key="d8">1</data>
+      <data key="d9">1599.98</data>
+      <data key="d10">0.69</data>
+      <data key="d11">0.08</data>
     </edge>
     <edge source="Node_041" target="Node_103">
       <data key="d6">18.0</data>
       <data key="d7">0.55</data>
       <data key="d8">1</data>
+      <data key="d9">32.73</data>
+      <data key="d10">0.05</data>
+      <data key="d11">0.55</data>
     </edge>
     <edge source="Node_042" target="Node_095">
       <data key="d6">65.0</data>
       <data key="d7">0.06</data>
       <data key="d8">1</data>
+      <data key="d9">1083.32</data>
+      <data key="d10">0.32</data>
+      <data key="d11">0.06</data>
     </edge>
     <edge source="Node_042" target="Node_141">
       <data key="d6">153.0</data>
       <data key="d7">0.95</data>
       <data key="d8">1</data>
+      <data key="d9">161.05</data>
+      <data key="d10">0.84</data>
+      <data key="d11">0.95</data>
     </edge>
     <edge source="Node_043" target="Node_160">
       <data key="d6">99.0</data>
       <data key="d7">0.68</data>
       <data key="d8">1</data>
+      <data key="d9">145.59</data>
+      <data key="d10">0.52</data>
+      <data key="d11">0.68</data>
     </edge>
     <edge source="Node_044" target="Node_101">
       <data key="d6">52.0</data>
       <data key="d7">0.15</data>
       <data key="d8">1</data>
+      <data key="d9">346.66</data>
+      <data key="d10">0.25</data>
+      <data key="d11">0.15</data>
     </edge>
     <edge source="Node_044" target="Node_134">
       <data key="d6">124.0</data>
       <data key="d7">0.19</data>
       <data key="d8">1</data>
+      <data key="d9">652.63</data>
+      <data key="d10">0.67</data>
+      <data key="d11">0.19</data>
     </edge>
     <edge source="Node_044" target="Node_178">
       <data key="d6">91.0</data>
       <data key="d7">0.24</data>
       <data key="d8">1</data>
+      <data key="d9">379.17</data>
+      <data key="d10">0.48</data>
+      <data key="d11">0.24</data>
     </edge>
     <edge source="Node_045" target="Node_166">
       <data key="d6">19.0</data>
       <data key="d7">0.3</data>
       <data key="d8">1</data>
+      <data key="d9">63.33</data>
+      <data key="d10">0.05</data>
+      <data key="d11">0.3</data>
     </edge>
     <edge source="Node_045" target="Node_177">
       <data key="d6">13.0</data>
       <data key="d7">0.87</data>
       <data key="d8">1</data>
+      <data key="d9">14.94</data>
+      <data key="d10">0.02</data>
+      <data key="d11">0.87</data>
     </edge>
     <edge source="Node_046" target="Node_127">
       <data key="d6">94.0</data>
       <data key="d7">0.07</data>
       <data key="d8">1</data>
+      <data key="d9">1342.84</data>
+      <data key="d10">0.49</data>
+      <data key="d11">0.07</data>
     </edge>
     <edge source="Node_046" target="Node_153">
       <data key="d6">30.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">46.15</data>
+      <data key="d10">0.12</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_046" target="Node_162">
       <data key="d6">79.0</data>
       <data key="d7">0.21</data>
       <data key="d8">1</data>
+      <data key="d9">376.19</data>
+      <data key="d10">0.41</data>
+      <data key="d11">0.21</data>
     </edge>
     <edge source="Node_047" target="Node_114">
       <data key="d6">37.0</data>
       <data key="d7">0.75</data>
       <data key="d8">1</data>
+      <data key="d9">49.33</data>
+      <data key="d10">0.16</data>
+      <data key="d11">0.75</data>
     </edge>
     <edge source="Node_048" target="Node_119">
       <data key="d6">64.0</data>
       <data key="d7">0.13</data>
       <data key="d8">1</data>
+      <data key="d9">492.3</data>
+      <data key="d10">0.32</data>
+      <data key="d11">0.13</data>
     </edge>
     <edge source="Node_048" target="Node_143">
       <data key="d6">138.0</data>
       <data key="d7">0.27</data>
       <data key="d8">1</data>
+      <data key="d9">511.11</data>
+      <data key="d10">0.75</data>
+      <data key="d11">0.27</data>
     </edge>
     <edge source="Node_048" target="Node_161">
       <data key="d6">132.0</data>
       <data key="d7">0.15</data>
       <data key="d8">1</data>
+      <data key="d9">879.99</data>
+      <data key="d10">0.72</data>
+      <data key="d11">0.15</data>
     </edge>
     <edge source="Node_049" target="Node_152">
       <data key="d6">111.0</data>
       <data key="d7">0.97</data>
       <data key="d8">1</data>
+      <data key="d9">114.43</data>
+      <data key="d10">0.59</data>
+      <data key="d11">0.97</data>
     </edge>
     <edge source="Node_050" target="Node_091">
       <data key="d6">14.0</data>
       <data key="d7">0.4</data>
       <data key="d8">1</data>
+      <data key="d9">35.0</data>
+      <data key="d10">0.02</data>
+      <data key="d11">0.4</data>
     </edge>
     <edge source="Node_050" target="Node_097">
       <data key="d6">72.0</data>
       <data key="d7">0.88</data>
       <data key="d8">1</data>
+      <data key="d9">81.82</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.88</data>
     </edge>
     <edge source="Node_050" target="Node_131">
       <data key="d6">153.0</data>
       <data key="d7">0.28</data>
       <data key="d8">1</data>
+      <data key="d9">546.43</data>
+      <data key="d10">0.84</data>
+      <data key="d11">0.28</data>
     </edge>
     <edge source="Node_050" target="Node_139">
       <data key="d6">162.0</data>
       <data key="d7">0.09</data>
       <data key="d8">1</data>
+      <data key="d9">1799.98</data>
+      <data key="d10">0.89</data>
+      <data key="d11">0.09</data>
     </edge>
     <edge source="Node_051" target="Node_082">
       <data key="d6">10.0</data>
       <data key="d7">0.66</data>
       <data key="d8">1</data>
+      <data key="d9">15.15</data>
+      <data key="d10">0.0</data>
+      <data key="d11">0.66</data>
     </edge>
     <edge source="Node_051" target="Node_085">
       <data key="d6">150.0</data>
       <data key="d7">0.98</data>
       <data key="d8">1</data>
+      <data key="d9">153.06</data>
+      <data key="d10">0.82</data>
+      <data key="d11">0.98</data>
     </edge>
     <edge source="Node_052" target="Node_133">
       <data key="d6">152.0</data>
       <data key="d7">0.26</data>
       <data key="d8">1</data>
+      <data key="d9">584.61</data>
+      <data key="d10">0.84</data>
+      <data key="d11">0.26</data>
     </edge>
     <edge source="Node_053" target="Node_089">
       <data key="d6">68.0</data>
       <data key="d7">0.81</data>
       <data key="d8">1</data>
+      <data key="d9">83.95</data>
+      <data key="d10">0.34</data>
+      <data key="d11">0.81</data>
     </edge>
     <edge source="Node_053" target="Node_124">
       <data key="d6">73.0</data>
       <data key="d7">0.14</data>
       <data key="d8">1</data>
+      <data key="d9">521.42</data>
+      <data key="d10">0.37</data>
+      <data key="d11">0.14</data>
     </edge>
     <edge source="Node_053" target="Node_148">
       <data key="d6">114.0</data>
       <data key="d7">0.76</data>
       <data key="d8">1</data>
+      <data key="d9">150.0</data>
+      <data key="d10">0.61</data>
+      <data key="d11">0.76</data>
     </edge>
     <edge source="Node_053" target="Node_176">
       <data key="d6">71.0</data>
       <data key="d7">0.74</data>
       <data key="d8">1</data>
+      <data key="d9">95.95</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.74</data>
     </edge>
     <edge source="Node_053" target="Node_180">
       <data key="d6">46.0</data>
       <data key="d7">0.53</data>
       <data key="d8">1</data>
+      <data key="d9">86.79</data>
+      <data key="d10">0.21</data>
+      <data key="d11">0.53</data>
     </edge>
     <edge source="Node_054" target="Node_169">
       <data key="d6">162.0</data>
       <data key="d7">0.33</data>
       <data key="d8">1</data>
+      <data key="d9">490.91</data>
+      <data key="d10">0.89</data>
+      <data key="d11">0.33</data>
     </edge>
     <edge source="Node_054" target="Node_171">
       <data key="d6">21.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">32.31</data>
+      <data key="d10">0.06</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_055" target="Node_086">
       <data key="d6">161.0</data>
       <data key="d7">0.27</data>
       <data key="d8">1</data>
+      <data key="d9">596.29</data>
+      <data key="d10">0.89</data>
+      <data key="d11">0.27</data>
     </edge>
     <edge source="Node_055" target="Node_087">
       <data key="d6">179.0</data>
       <data key="d7">0.22</data>
       <data key="d8">1</data>
+      <data key="d9">813.63</data>
+      <data key="d10">0.99</data>
+      <data key="d11">0.22</data>
     </edge>
     <edge source="Node_055" target="Node_101">
       <data key="d6">78.0</data>
       <data key="d7">0.25</data>
       <data key="d8">1</data>
+      <data key="d9">312.0</data>
+      <data key="d10">0.4</data>
+      <data key="d11">0.25</data>
     </edge>
     <edge source="Node_055" target="Node_105">
       <data key="d6">10.0</data>
       <data key="d7">0.68</data>
       <data key="d8">1</data>
+      <data key="d9">14.71</data>
+      <data key="d10">0.0</data>
+      <data key="d11">0.68</data>
     </edge>
     <edge source="Node_056" target="Node_116">
       <data key="d6">33.0</data>
       <data key="d7">0.19</data>
       <data key="d8">1</data>
+      <data key="d9">173.68</data>
+      <data key="d10">0.14</data>
+      <data key="d11">0.19</data>
     </edge>
     <edge source="Node_056" target="Node_129">
       <data key="d6">125.0</data>
       <data key="d7">0.64</data>
       <data key="d8">1</data>
+      <data key="d9">195.31</data>
+      <data key="d10">0.68</data>
+      <data key="d11">0.64</data>
     </edge>
     <edge source="Node_056" target="Node_141">
       <data key="d6">155.0</data>
       <data key="d7">0.06</data>
       <data key="d8">1</data>
+      <data key="d9">2583.29</data>
+      <data key="d10">0.85</data>
+      <data key="d11">0.06</data>
     </edge>
     <edge source="Node_056" target="Node_154">
       <data key="d6">31.0</data>
       <data key="d7">0.18</data>
       <data key="d8">1</data>
+      <data key="d9">172.22</data>
+      <data key="d10">0.12</data>
+      <data key="d11">0.18</data>
     </edge>
     <edge source="Node_057" target="Node_084">
       <data key="d6">138.0</data>
       <data key="d7">0.86</data>
       <data key="d8">1</data>
+      <data key="d9">160.46</data>
+      <data key="d10">0.75</data>
+      <data key="d11">0.86</data>
     </edge>
     <edge source="Node_057" target="Node_117">
       <data key="d6">26.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">40.0</data>
+      <data key="d10">0.09</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_058" target="Node_125">
       <data key="d6">82.0</data>
       <data key="d7">0.77</data>
       <data key="d8">1</data>
+      <data key="d9">106.49</data>
+      <data key="d10">0.42</data>
+      <data key="d11">0.77</data>
     </edge>
     <edge source="Node_058" target="Node_170">
       <data key="d6">144.0</data>
       <data key="d7">0.28</data>
       <data key="d8">1</data>
+      <data key="d9">514.28</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.28</data>
     </edge>
     <edge source="Node_059" target="Node_092">
       <data key="d6">136.0</data>
       <data key="d7">0.34</data>
       <data key="d8">1</data>
+      <data key="d9">400.0</data>
+      <data key="d10">0.74</data>
+      <data key="d11">0.34</data>
     </edge>
     <edge source="Node_059" target="Node_121">
       <data key="d6">106.0</data>
       <data key="d7">0.9</data>
       <data key="d8">1</data>
+      <data key="d9">117.78</data>
+      <data key="d10">0.56</data>
+      <data key="d11">0.9</data>
     </edge>
     <edge source="Node_059" target="Node_142">
       <data key="d6">168.0</data>
       <data key="d7">0.59</data>
       <data key="d8">1</data>
+      <data key="d9">284.75</data>
+      <data key="d10">0.93</data>
+      <data key="d11">0.59</data>
     </edge>
     <edge source="Node_059" target="Node_150">
       <data key="d6">44.0</data>
       <data key="d7">1.0</data>
       <data key="d8">1</data>
+      <data key="d9">44.0</data>
+      <data key="d10">0.2</data>
+      <data key="d11">1.0</data>
     </edge>
     <edge source="Node_060" target="Node_164">
       <data key="d6">79.0</data>
       <data key="d7">0.21</data>
       <data key="d8">1</data>
+      <data key="d9">376.19</data>
+      <data key="d10">0.41</data>
+      <data key="d11">0.21</data>
     </edge>
     <edge source="Node_061" target="Node_094">
       <data key="d6">175.0</data>
       <data key="d7">0.95</data>
       <data key="d8">1</data>
+      <data key="d9">184.21</data>
+      <data key="d10">0.97</data>
+      <data key="d11">0.95</data>
     </edge>
     <edge source="Node_061" target="Node_108">
       <data key="d6">139.0</data>
       <data key="d7">0.81</data>
       <data key="d8">1</data>
+      <data key="d9">171.6</data>
+      <data key="d10">0.76</data>
+      <data key="d11">0.81</data>
     </edge>
     <edge source="Node_061" target="Node_122">
       <data key="d6">15.0</data>
       <data key="d7">0.38</data>
       <data key="d8">1</data>
+      <data key="d9">39.47</data>
+      <data key="d10">0.03</data>
+      <data key="d11">0.38</data>
     </edge>
     <edge source="Node_061" target="Node_176">
       <data key="d6">63.0</data>
       <data key="d7">0.72</data>
       <data key="d8">1</data>
+      <data key="d9">87.5</data>
+      <data key="d10">0.31</data>
+      <data key="d11">0.72</data>
     </edge>
     <edge source="Node_062" target="Node_098">
       <data key="d6">121.0</data>
       <data key="d7">0.17</data>
       <data key="d8">1</data>
+      <data key="d9">711.76</data>
+      <data key="d10">0.65</data>
+      <data key="d11">0.17</data>
     </edge>
     <edge source="Node_062" target="Node_107">
       <data key="d6">144.0</data>
       <data key="d7">0.89</data>
       <data key="d8">1</data>
+      <data key="d9">161.8</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.89</data>
     </edge>
     <edge source="Node_062" target="Node_113">
       <data key="d6">91.0</data>
       <data key="d7">0.93</data>
       <data key="d8">1</data>
+      <data key="d9">97.85</data>
+      <data key="d10">0.48</data>
+      <data key="d11">0.93</data>
     </edge>
     <edge source="Node_062" target="Node_128">
       <data key="d6">81.5</data>
       <data key="d7">0.3</data>
       <data key="d8">2</data>
+      <data key="d9">271.67</data>
+      <data key="d10">0.42</data>
+      <data key="d11">0.3</data>
     </edge>
     <edge source="Node_063" target="Node_099">
       <data key="d6">95.0</data>
       <data key="d7">0.27</data>
       <data key="d8">1</data>
+      <data key="d9">351.85</data>
+      <data key="d10">0.5</data>
+      <data key="d11">0.27</data>
     </edge>
     <edge source="Node_063" target="Node_157">
       <data key="d6">157.0</data>
       <data key="d7">0.89</data>
       <data key="d8">1</data>
+      <data key="d9">176.4</data>
+      <data key="d10">0.86</data>
+      <data key="d11">0.89</data>
     </edge>
     <edge source="Node_063" target="Node_173">
       <data key="d6">179.0</data>
       <data key="d7">0.95</data>
       <data key="d8">1</data>
+      <data key="d9">188.42</data>
+      <data key="d10">0.99</data>
+      <data key="d11">0.95</data>
     </edge>
     <edge source="Node_064" target="Node_096">
       <data key="d6">130.0</data>
       <data key="d7">0.62</data>
       <data key="d8">1</data>
+      <data key="d9">209.68</data>
+      <data key="d10">0.71</data>
+      <data key="d11">0.62</data>
     </edge>
     <edge source="Node_064" target="Node_138">
       <data key="d6">108.0</data>
       <data key="d7">0.79</data>
       <data key="d8">1</data>
+      <data key="d9">136.71</data>
+      <data key="d10">0.58</data>
+      <data key="d11">0.79</data>
     </edge>
     <edge source="Node_064" target="Node_166">
       <data key="d6">168.0</data>
       <data key="d7">0.7</data>
       <data key="d8">1</data>
+      <data key="d9">240.0</data>
+      <data key="d10">0.93</data>
+      <data key="d11">0.7</data>
     </edge>
     <edge source="Node_065" target="Node_115">
       <data key="d6">109.0</data>
       <data key="d7">0.19</data>
       <data key="d8">1</data>
+      <data key="d9">573.68</data>
+      <data key="d10">0.58</data>
+      <data key="d11">0.19</data>
     </edge>
     <edge source="Node_065" target="Node_116">
       <data key="d6">71.0</data>
       <data key="d7">0.74</data>
       <data key="d8">1</data>
+      <data key="d9">95.95</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.74</data>
     </edge>
     <edge source="Node_066" target="Node_132">
       <data key="d6">90.0</data>
       <data key="d7">0.24</data>
       <data key="d8">1</data>
+      <data key="d9">375.0</data>
+      <data key="d10">0.47</data>
+      <data key="d11">0.24</data>
     </edge>
     <edge source="Node_066" target="Node_180">
       <data key="d6">47.0</data>
       <data key="d7">0.32</data>
       <data key="d8">1</data>
+      <data key="d9">146.87</data>
+      <data key="d10">0.22</data>
+      <data key="d11">0.32</data>
     </edge>
     <edge source="Node_067" target="Node_094">
       <data key="d6">70.0</data>
       <data key="d7">0.72</data>
       <data key="d8">1</data>
+      <data key="d9">97.22</data>
+      <data key="d10">0.35</data>
+      <data key="d11">0.72</data>
     </edge>
     <edge source="Node_067" target="Node_126">
       <data key="d6">139.0</data>
       <data key="d7">0.04</data>
       <data key="d8">1</data>
+      <data key="d9">3474.91</data>
+      <data key="d10">0.76</data>
+      <data key="d11">0.04</data>
     </edge>
     <edge source="Node_067" target="Node_130">
       <data key="d6">76.0</data>
       <data key="d7">0.9</data>
       <data key="d8">1</data>
+      <data key="d9">84.44</data>
+      <data key="d10">0.39</data>
+      <data key="d11">0.9</data>
     </edge>
     <edge source="Node_067" target="Node_167">
       <data key="d6">121.0</data>
       <data key="d7">0.53</data>
       <data key="d8">1</data>
+      <data key="d9">228.3</data>
+      <data key="d10">0.65</data>
+      <data key="d11">0.53</data>
     </edge>
     <edge source="Node_068" target="Node_155">
       <data key="d6">102.0</data>
       <data key="d7">0.84</data>
       <data key="d8">1</data>
+      <data key="d9">121.43</data>
+      <data key="d10">0.54</data>
+      <data key="d11">0.84</data>
     </edge>
     <edge source="Node_068" target="Node_175">
       <data key="d6">54.0</data>
       <data key="d7">0.88</data>
       <data key="d8">1</data>
+      <data key="d9">61.36</data>
+      <data key="d10">0.26</data>
+      <data key="d11">0.88</data>
     </edge>
     <edge source="Node_068" target="Node_181">
       <data key="d6">179.0</data>
       <data key="d7">0.66</data>
       <data key="d8">1</data>
+      <data key="d9">271.21</data>
+      <data key="d10">0.99</data>
+      <data key="d11">0.66</data>
     </edge>
     <edge source="Node_069" target="Node_163">
       <data key="d6">118.0</data>
       <data key="d7">0.11</data>
       <data key="d8">1</data>
+      <data key="d9">1072.72</data>
+      <data key="d10">0.64</data>
+      <data key="d11">0.11</data>
     </edge>
     <edge source="Node_069" target="Node_171">
       <data key="d6">36.0</data>
       <data key="d7">0.67</data>
       <data key="d8">1</data>
+      <data key="d9">53.73</data>
+      <data key="d10">0.15</data>
+      <data key="d11">0.67</data>
     </edge>
     <edge source="Node_070" target="Node_146">
       <data key="d6">176.0</data>
       <data key="d7">0.18</data>
       <data key="d8">1</data>
+      <data key="d9">977.77</data>
+      <data key="d10">0.98</data>
+      <data key="d11">0.18</data>
     </edge>
     <edge source="Node_070" target="Node_158">
       <data key="d6">60.0</data>
       <data key="d7">0.12</data>
       <data key="d8">1</data>
+      <data key="d9">500.0</data>
+      <data key="d10">0.29</data>
+      <data key="d11">0.12</data>
     </edge>
     <edge source="Node_070" target="Node_178">
       <data key="d6">40.0</data>
       <data key="d7">0.66</data>
       <data key="d8">1</data>
+      <data key="d9">60.61</data>
+      <data key="d10">0.18</data>
+      <data key="d11">0.66</data>
     </edge>
     <edge source="Node_071" target="Node_100">
       <data key="d6">62.0</data>
       <data key="d7">0.34</data>
       <data key="d8">1</data>
+      <data key="d9">182.35</data>
+      <data key="d10">0.31</data>
+      <data key="d11">0.34</data>
     </edge>
     <edge source="Node_071" target="Node_144">
       <data key="d6">110.0</data>
       <data key="d7">0.78</data>
       <data key="d8">1</data>
+      <data key="d9">141.03</data>
+      <data key="d10">0.59</data>
+      <data key="d11">0.78</data>
     </edge>
     <edge source="Node_072" target="Node_083">
       <data key="d6">67.0</data>
       <data key="d7">0.39</data>
       <data key="d8">1</data>
+      <data key="d9">171.79</data>
+      <data key="d10">0.34</data>
+      <data key="d11">0.39</data>
     </edge>
     <edge source="Node_072" target="Node_093">
       <data key="d6">125.0</data>
       <data key="d7">0.16</data>
       <data key="d8">1</data>
+      <data key="d9">781.25</data>
+      <data key="d10">0.68</data>
+      <data key="d11">0.16</data>
     </edge>
     <edge source="Node_072" target="Node_112">
       <data key="d6">19.0</data>
       <data key="d7">0.6</data>
       <data key="d8">1</data>
+      <data key="d9">31.67</data>
+      <data key="d10">0.05</data>
+      <data key="d11">0.6</data>
     </edge>
     <edge source="Node_072" target="Node_117">
       <data key="d6">87.0</data>
       <data key="d7">0.29</data>
       <data key="d8">1</data>
+      <data key="d9">300.0</data>
+      <data key="d10">0.45</data>
+      <data key="d11">0.29</data>
     </edge>
     <edge source="Node_072" target="Node_145">
       <data key="d6">157.0</data>
       <data key="d7">0.99</data>
       <data key="d8">1</data>
+      <data key="d9">158.59</data>
+      <data key="d10">0.86</data>
+      <data key="d11">0.99</data>
     </edge>
     <edge source="Node_072" target="Node_152">
       <data key="d6">165.0</data>
       <data key="d7">0.67</data>
       <data key="d8">1</data>
+      <data key="d9">246.27</data>
+      <data key="d10">0.91</data>
+      <data key="d11">0.67</data>
     </edge>
     <edge source="Node_072" target="Node_167">
       <data key="d6">14.0</data>
       <data key="d7">0.33</data>
       <data key="d8">1</data>
+      <data key="d9">42.42</data>
+      <data key="d10">0.02</data>
+      <data key="d11">0.33</data>
     </edge>
     <edge source="Node_072" target="Node_171">
       <data key="d6">145.0</data>
       <data key="d7">0.95</data>
       <data key="d8">1</data>
+      <data key="d9">152.63</data>
+      <data key="d10">0.79</data>
+      <data key="d11">0.95</data>
     </edge>
     <edge source="Node_073" target="Node_083">
       <data key="d6">18.0</data>
       <data key="d7">0.15</data>
       <data key="d8">1</data>
+      <data key="d9">120.0</data>
+      <data key="d10">0.05</data>
+      <data key="d11">0.15</data>
     </edge>
     <edge source="Node_073" target="Node_140">
       <data key="d6">48.0</data>
       <data key="d7">0.98</data>
       <data key="d8">1</data>
+      <data key="d9">48.98</data>
+      <data key="d10">0.22</data>
+      <data key="d11">0.98</data>
     </edge>
     <edge source="Node_073" target="Node_179">
       <data key="d6">107.0</data>
       <data key="d7">0.23</data>
       <data key="d8">1</data>
+      <data key="d9">465.22</data>
+      <data key="d10">0.57</data>
+      <data key="d11">0.23</data>
     </edge>
     <edge source="Node_074" target="Node_156">
       <data key="d6">51.0</data>
       <data key="d7">0.14</data>
       <data key="d8">1</data>
+      <data key="d9">364.28</data>
+      <data key="d10">0.24</data>
+      <data key="d11">0.14</data>
     </edge>
     <edge source="Node_075" target="Node_088">
       <data key="d6">72.0</data>
       <data key="d7">0.99</data>
       <data key="d8">1</data>
+      <data key="d9">72.73</data>
+      <data key="d10">0.36</data>
+      <data key="d11">0.99</data>
     </edge>
     <edge source="Node_075" target="Node_090">
       <data key="d6">138.0</data>
       <data key="d7">0.52</data>
       <data key="d8">1</data>
+      <data key="d9">265.38</data>
+      <data key="d10">0.75</data>
+      <data key="d11">0.52</data>
     </edge>
     <edge source="Node_075" target="Node_102">
       <data key="d6">105.0</data>
       <data key="d7">0.38</data>
       <data key="d8">1</data>
+      <data key="d9">276.32</data>
+      <data key="d10">0.56</data>
+      <data key="d11">0.38</data>
     </edge>
     <edge source="Node_075" target="Node_106">
       <data key="d6">14.0</data>
       <data key="d7">0.55</data>
       <data key="d8">1</data>
+      <data key="d9">25.45</data>
+      <data key="d10">0.02</data>
+      <data key="d11">0.55</data>
     </edge>
     <edge source="Node_075" target="Node_151">
       <data key="d6">149.0</data>
       <data key="d7">0.15</data>
       <data key="d8">1</data>
+      <data key="d9">993.33</data>
+      <data key="d10">0.82</data>
+      <data key="d11">0.15</data>
     </edge>
     <edge source="Node_077" target="Node_120">
       <data key="d6">110.0</data>
       <data key="d7">0.19</data>
       <data key="d8">1</data>
+      <data key="d9">578.94</data>
+      <data key="d10">0.59</data>
+      <data key="d11">0.19</data>
     </edge>
     <edge source="Node_077" target="Node_177">
       <data key="d6">133.0</data>
       <data key="d7">0.35</data>
       <data key="d8">1</data>
+      <data key="d9">380.0</data>
+      <data key="d10">0.72</data>
+      <data key="d11">0.35</data>
     </edge>
     <edge source="Node_078" target="Node_123">
       <data key="d6">57.0</data>
       <data key="d7">0.93</data>
       <data key="d8">1</data>
+      <data key="d9">61.29</data>
+      <data key="d10">0.28</data>
+      <data key="d11">0.93</data>
     </edge>
     <edge source="Node_078" target="Node_135">
       <data key="d6">149.0</data>
       <data key="d7">0.49</data>
       <data key="d8">1</data>
+      <data key="d9">304.08</data>
+      <data key="d10">0.82</data>
+      <data key="d11">0.49</data>
     </edge>
     <edge source="Node_079" target="Node_104">
       <data key="d6">84.0</data>
       <data key="d7">0.34</data>
       <data key="d8">1</data>
+      <data key="d9">247.06</data>
+      <data key="d10">0.44</data>
+      <data key="d11">0.34</data>
     </edge>
     <edge source="Node_079" target="Node_137">
       <data key="d6">57.0</data>
       <data key="d7">0.65</data>
       <data key="d8">1</data>
+      <data key="d9">87.69</data>
+      <data key="d10">0.28</data>
+      <data key="d11">0.65</data>
     </edge>
     <edge source="Node_080" target="Node_082">
       <data key="d6">130.0</data>
       <data key="d7">0.04</data>
       <data key="d8">1</data>
+      <data key="d9">3249.92</data>
+      <data key="d10">0.71</data>
+      <data key="d11">0.04</data>
     </edge>
     <edge source="Node_080" target="Node_122">
       <data key="d6">130.0</data>
       <data key="d7">0.61</data>
       <data key="d8">1</data>
+      <data key="d9">213.11</data>
+      <data key="d10">0.71</data>
+      <data key="d11">0.61</data>
     </edge>
     <edge source="Node_080" target="Node_153">
       <data key="d6">114.0</data>
       <data key="d7">0.19</data>
       <data key="d8">1</data>
+      <data key="d9">600.0</data>
+      <data key="d10">0.61</data>
+      <data key="d11">0.19</data>
     </edge>
     <edge source="Node_080" target="Node_174">
       <data key="d6">35.0</data>
       <data key="d7">0.76</data>
       <data key="d8">1</data>
+      <data key="d9">46.05</data>
+      <data key="d10">0.15</data>
+      <data key="d11">0.76</data>
     </edge>
     <edge source="Node_080" target="Node_176">
       <data key="d6">12.0</data>
       <data key="d7">0.07</data>
       <data key="d8">1</data>
+      <data key="d9">171.43</data>
+      <data key="d10">0.01</data>
+      <data key="d11">0.07</data>
     </edge>
     <edge source="Node_081" target="Node_111">
       <data key="d6">97.0</data>
       <data key="d7">0.84</data>
       <data key="d8">1</data>
+      <data key="d9">115.48</data>
+      <data key="d10">0.51</data>
+      <data key="d11">0.84</data>
     </edge>
     <edge source="Node_081" target="Node_174">
       <data key="d6">94.0</data>
       <data key="d7">0.15</data>
       <data key="d8">1</data>
+      <data key="d9">626.66</data>
+      <data key="d10">0.49</data>
+      <data key="d11">0.15</data>
     </edge>
   </graph>
 </graphml>
