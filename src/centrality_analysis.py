@@ -92,24 +92,17 @@ nx.draw_networkx_nodes(
     G, pos=pos, node_color=node_colors, node_size=node_sizes, alpha=0.9
 )
 
+# Get node types for each node
+node_type_map = nx.get_node_attributes(G, 'node_type')
+
 # Add labels for critical nodes
 labels = {}
 for node in critical_nodes_list:
-    labels[node] = node
+    labels[node] = node_type_map.get(node)
 
 nx.draw_networkx_labels(G, pos=pos, labels=labels, font_size=8, font_weight="bold")
 
 # Add title
-plt.title("Critical nodes based on Top 15 centrality rankings")
+plt.title("Critical nodes based on Top {TOP_N_RANK} centrality rankings")
 plt.axis("off")
 plt.show()
-
-# Discussion
-
-# Nodes ranked high in betweenness centrality are crucial bridges, information between different network parts likely flow through them.
-# Nodes ranked high in degree or eigenvector centrality potentially reach many other nodes. Their messages might spread widely.
-# Nodes ranked high in closeness centrality (low average delay) can access information relatively quickly.
-# Nodes ranked high in multiple centralities represent significant points of dependency. In this analysis both nodes are community leaders.
-# If these important nodes fail during a disaster, consequences can be disturbing.
-#   - For example, information could be significantly slowed down or network might split into disconnected components.
-# How to improve: Network design should consider redundancy for critical nodes/pathways to reduce reliance on single nodes.

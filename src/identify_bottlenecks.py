@@ -64,14 +64,20 @@ pos = nx.spring_layout(G, seed=42)
 
 node_colors = []
 node_sizes = []
+labels = {}
+# Get node types for each node
+node_type_map = nx.get_node_attributes(G, 'node_type')
+
 color_map = {"start": "green", "bottleneck": "red", "other": "lightgrey"}
 for node in G.nodes():
     if node == "Node_001":
         node_colors.append(color_map["start"])
         node_sizes.append(40)
+        labels[node] = node_type_map.get(node) # Add label for start node
     elif node in bottlenecks:
         node_colors.append(color_map["bottleneck"])
         node_sizes.append(140)
+        labels[node] = node_type_map.get(node) # Add label if a node is a bottleneck node
     else:
         node_colors.append(color_map["other"])
         node_sizes.append(40)
@@ -85,6 +91,10 @@ nx.draw_networkx_nodes(
     node_color=node_colors,
     node_size=node_sizes,
     alpha=0.9,
+)
+
+nx.draw_networkx_labels(
+    G, pos=pos, labels=labels, font_size=8, font_weight="bold"
 )
 
 # Add legend
@@ -105,14 +115,3 @@ legend1 = plt.legend(
 plt.title("Network Graph Highlighting Potential Bottlenecks")
 plt.axis("off")
 plt.show()
-
-# Discussion about bottlenecks
-
-# The identified potential bottlenecks are critical since they are central to many communication paths because of high centrality.
-# These bottlenecks also tend to receive the alert relatively late compared to others since they have high delay.
-# High delays at these nodes can slow down the alert dissemination to large parts of the network that depend on them.
-# Removing these bottlenecks should not be considered. As stated earlier, these are central to may communication paths due to high centrality.
-# It could cause more harm if they were removed. Replacing these nodes by creating alternative links that bypass these bottlenecks would be a better option.
-# Other options to fix bottlenecks:
-# - if delay is internal, improve processing capacity/speed
-# - reconfigure tasks performed by a bottleneck node to less central nodes if possible
